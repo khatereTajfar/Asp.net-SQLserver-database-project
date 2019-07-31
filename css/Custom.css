@@ -1,0 +1,178 @@
+﻿.center {
+    text-align:center;
+}
+
+.center-page{
+    height:300px;
+    width:300px;
+    position:absolute;
+
+    top:-30px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+
+    margin:auto;
+}
+
+.space-vert{
+    margin-top:20px;
+}
+
+.footer-pos{
+    height:auto;
+    width:auto;
+    position:absolute;
+
+    top:600px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+
+    margin:auto;
+}
+
+body{
+    padding-top:70px;
+}
+
+.proBrand{
+    font-size:15px;
+    font-weight:600;
+    line-height:15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+}
+
+.proName{
+    font-size:13px; 
+    line-height:17px;
+    font-family:sans-serif;
+}
+.proPrice{
+    font-size:14px; 
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:600;
+}
+.proORGPrice{
+    font-size:13px; 
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:400;
+    text-decoration:line-through;
+    color:gray;
+
+}
+
+.proPriceDiscount{
+    font-size:13px; 
+    font-family:sans-serif;
+    font-weight:400;
+    color:deeppink;
+}
+
+/*For ProductView*/
+.ProNameView{
+    font-size:20px; 
+    line-height:25px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#696e80;
+}
+
+.proORGPriceView{
+    font-size:15px; 
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:400;
+    text-decoration:line-through;
+    color:gray;
+
+}
+
+.proPriceDiscountView{
+    font-size:15px; 
+    font-family:sans-serif;
+    font-weight:400;
+    color:deeppink;
+}
+.proPriceView{
+    font-size:16px; 
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:10px;
+}
+.DivDet1{
+    border-bottom:1px dashed #696e80;
+    margin-bottom:20px;
+
+}
+.h5Size{
+    font-weight:600;
+}
+input[type=radio]{
+    margin-right:10px;
+    margin-left:10px;
+}
+.mainButton{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    font-size:13px;
+    min-height:22px;
+    padding:10px 15px;
+    min-width:108px;
+    font-weight:500;
+    background-color:#FF5722;
+    border:1px solid #FF5722;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+#btnCart{
+    margin-right:6px;
+}
+
+/*Cart*/
+.ProNameViewCart{
+    font-size:15px; 
+    line-height:25px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#696e80;
+}
+
+.RemoveButton{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    font-size:13px;
+    min-height:22px;
+
+    min-width:108px;
+    font-weight:500;
+    background-color:#FF5722;
+    border:1px solid #FF5722;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.BuyNowButton{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size:13px;
+    min-height:22px;
+    padding:10px 15px;
+    min-width:108px;
+    font-weight:500;
+    background-color:#14cda8;
+    border:1px solid #14cda8;
+    color:#fff;
+    margin-bottom:20px;
+    width:100%;
+}
+
